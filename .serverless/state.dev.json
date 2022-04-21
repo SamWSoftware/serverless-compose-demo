@@ -1,0 +1,40 @@
+{
+  "service": {
+    "id": "6kv5gs9"
+  },
+  "components": {
+    "infra": {
+      "state": {
+        "detectedFrameworkVersion": "3.14.0"
+      },
+      "outputs": {
+        "cognitoUserPoolArn": "arn:aws:cognito-idp:eu-central-1:095363550084:userpool/eu-central-1_k7fshV8S1",
+        "configurationsTable": "dev-compose-config-table",
+        "websiteBucket": "dev-infra-website-bucket",
+        "assetBucket": "dev-infra-asset-bucket",
+        "region": "eu-central-1",
+        "ServerlessDeploymentBucketName": "infra-dev-serverlessdeploymentbucket-1qn8fnm14cbbu"
+      }
+    },
+    "backend": {
+      "state": {
+        "detectedFrameworkVersion": "3.14.0"
+      },
+      "outputs": {
+        "apiUrl": "https://spvyxyj4y1.execute-api.eu-central-1.amazonaws.com/dev",
+        "GetConfigLambdaFunctionQualifiedArn": "arn:aws:lambda:eu-central-1:095363550084:function:backend-dev-getConfig:1",
+        "SaveConfigLambdaFunctionQualifiedArn": "arn:aws:lambda:eu-central-1:095363550084:function:backend-dev-saveConfig:3",
+        "ServiceEndpoint": "https://spvyxyj4y1.execute-api.eu-central-1.amazonaws.com/dev",
+        "ServerlessDeploymentBucketName": "backend-dev-serverlessdeploymentbucket-wylh5r8kqd93"
+      }
+    },
+    "frontend": {
+      "state": {
+        "detectedFrameworkVersion": "3.14.0"
+      },
+      "outputs": {
+        "ServerlessDeploymentBucketName": "frontend-dev-serverlessdeploymentbucket-k1xn3eftztsw"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sls-compose-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@serverless/compose": "^0.0.12",
+    "@types/node": "^17.0.25",
+    "serverless": "^3.14.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
